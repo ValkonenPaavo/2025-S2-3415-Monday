@@ -6,15 +6,10 @@
 
 <body>
     <div class="container">
-        <h2>Welcome</h2>
-        <form action="/dbs" method="post">
-            <input type = "submit" value="DBS Prediction">
-        </form>
-        <form action="/chatbot" method="post">
-            <input type = "submit" value="Chatbot By Groq">
-        </form>
-        <form action="/" method="post">
-            <input type = "submit" value="Exit">
+        <h2>Talk to Hanna</h2>
+        <form action="/reply" method="post">
+            <input type="text" name="q">
+            <input type = "submit" value="Submit">
         </form>
     </div>
 </body>
